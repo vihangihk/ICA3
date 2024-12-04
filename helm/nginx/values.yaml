@@ -5,7 +5,7 @@ nginx:
     app: wp-proxy-app
     env: dev
   image:
-    repository: vihangihk/nginx-proxy
+    repository: yolimar23/nginx-proxy
     tag: "latest"
     pullPolicy: IfNotPresent
   replicas: 1
